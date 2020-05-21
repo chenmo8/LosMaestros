@@ -1,0 +1,52 @@
+html {
+  background-image: url('webpage2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+img {
+	margin: 0px 0px 0px 0px;
+}
+
+h1 {
+	text-align:left;
+	font-family:"Arial Black";
+	font-weight: bold;
+	margin-top: 0px;
+	color: #d3dadd;
+	font-size: 60px;
+}
+
+h2 {
+	text-align:left;
+	margin-top:-70px;
+	font-family:"Arial Black";
+	font-weight: bold;
+	color: #d3dadd;
+	font-size: 40px;
+
+}
+
+
+.left{
+	position: fixed;
+  	bottom: 190px;
+ 	left: 260px;
+	z-index: -1; 
+
+}
+.middle {
+	position: fixed;
+	left:530px;
+	bottom:207px;
+}
+
+
+.right{
+	position: fixed; 
+  	bottom: 190px;
+	left:855px;
+	z-index: -1; 
+
+}
